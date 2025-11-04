@@ -1,4 +1,3 @@
-
 /////////????????
 
 interface IFileSystem {
@@ -24,7 +23,7 @@ class SimpleFolder implements IFileSystem {
 
   showName(): void {
     console.log(this.name);
-    this.children.forEach(child => child.showName());
+    this.children.forEach((child) => child.showName());
   }
 }
 
